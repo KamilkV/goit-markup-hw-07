@@ -120,7 +120,7 @@ a:focus {
 .what-text {
   font-size: 36px;
   line-height: 1.11;
-  text-align: left;
+  text-align: center;
   text-transform: capitalize;
   color: var(--fourth-color-text);
 }
