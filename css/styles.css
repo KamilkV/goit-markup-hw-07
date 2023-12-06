@@ -22,7 +22,7 @@ body {
 .header {
   background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -44,19 +44,26 @@ body {
   letter-spacing: 0.04em;
 }
 
+button:hover,
+button:active,
+button:focus {
+  color: var(--color-white);
+  background-color: var(--focus-color);
+}
+
 .section {
   background-color: var(--fourth-color-text);
 }
 .header-section {
   font-size: 56px;
-  line-height: 1.07;
-  text-align: ;
+  line-height: 1.15;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
 
 .section-buttons {
-  font-size: 56px;
+  font-size: 16px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -66,8 +73,8 @@ body {
 .header-buttons {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--fourth-color-text);
 }
 .buttons-list {
@@ -99,7 +106,7 @@ body {
 a:active,
 a:hover,
 a:focus {
-  color: var(--focus-color);
+  color: var(--#404BBF);
 }
 
 .header-app {
@@ -127,7 +134,7 @@ a:focus {
 
 .logo {
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   color: var(--iris);
   font-weight: 800;
