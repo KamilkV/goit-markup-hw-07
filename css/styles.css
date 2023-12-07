@@ -106,7 +106,7 @@ button:focus {
 a:active,
 a:hover,
 a:focus {
-  color: var(--#404BBF);
+  color: var(--focus-color);
 }
 
 .header-app {
