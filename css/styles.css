@@ -61,32 +61,12 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
-
-.section-buttons {
-  font-size: 16px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-white);
-}
-
 .header-buttons {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--fourth-color-text);
-}
-.buttons-list {
-  color: var(--iris);
-  background-color: var(--fifth-color-text);
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  list-style-type: none;
 }
 
 .button-click {
@@ -169,12 +149,7 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--third-color-text);
 }
-.header-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--third-color-text);
-}
+
 .highlight {
   color: var(--fifth-color-text);
 }
