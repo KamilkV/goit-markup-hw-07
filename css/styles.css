@@ -30,12 +30,26 @@ button {
   border: none;
   border-radius: 4px;
 }
+
 .container-header {
   width: 1158px;
   margin: 0 auto;
   display: flex;
   padding: 0 15px;
 }
+.header-section {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  display: flex;
+  max-width: 496px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -67,18 +81,39 @@ display:inline-block .studio-header {
 .header {
   background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
+  display: flex;
+  height: 72px;
+  align-items: center;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .list {
   list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
 }
 
+.menu-list {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 40px;
+}
 .button {
   color: var(--iris);
   background-color: var(--fifth-color-text);
@@ -95,45 +130,78 @@ button:active,
 button:focus {
   color: var(--color-white);
   background-color: var(--focus-color);
+  border: 1px solid transparent;
 }
 
 .section {
   background-color: var(--fourth-color-text);
 }
-.header-section {
+.header-cointainer {
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
+
+.button-click {
+  background-color: #e7e9fc;
+  color: var(--iris);
+  padding: 12px 24px;
+  height: 56px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
+  margin: 50px auto;
+  display: block;
+  border: 1px solid #e7e9fc;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.ux {
+  width: 360px;
+}
+
+.ux-items {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.button-header {
+  background-color: var(--iris);
+  color: var(--color-white);
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
+  margin: 50px auto 0;
+  display: block;
+  border: none;
+}
+.section-buttons {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
-.header-buttons {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--fourth-color-text);
-}
-
-.button-click {
-  color: var(--iris);
-  background-color: var(--fifth-color-text);
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.button-header {
-  background-color: var(--iris);
-  color: var(--color-white);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+.portfolio-menu-list {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 a:active,
@@ -148,21 +216,42 @@ a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--fourth-color-text);
+  height: 24px;
+  margin-bottom: 8px;
 }
 
-.text-app {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--third-color-text);
-  font-size: 16px;
+.doing {
+  padding-bottom: 120px;
 }
-
 .what-text {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--fourth-color-text);
+  margin-bottom: 72px;
+}
+.doing-list {
+  list-style: none;
+  display: flex;
+  margin: 0 10px;
+  justify-content: center;
+  gap: 24px;
+}
+.doing-img {
+  display: block;
+}
+.team-name {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+.value {
+  width: calc((100% - 72px) / 4);
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -173,23 +262,38 @@ a:focus {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 76px;
 }
 .footer-class {
   background-color: var(--fourth-color-text);
   color: var(--color-white);
+  height: 312px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fifth-color-text);
+  max-width: 264px;
 }
 
 .link {
   text-decoration: none;
 }
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .contact,
-.header-text {
+.text-app {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -211,6 +315,16 @@ a:focus {
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  display: flex;
+  margin-left: auto;
+}
+.address-list {
+  list-style: none;
+  display: flex;
+  margin: 0 10px;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
 }
 
 .index-link {
@@ -220,10 +334,18 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fourth-color-text);
+  gap: 40px;
+  display: flex;
+  padding: 24px 0;
 }
 
 .team {
   background-color: var(--fifth-color-text);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0;
 }
 
 .team-header {
@@ -233,7 +355,36 @@ a:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--fourth-color-text);
+  margin-bottom: 72px;
+}
+.staff {
+  height: 380px;
+  min-width: 1128px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+  margin-top: 30px;
+  text-align: center;
 }
 .team-list {
   background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  text-align: center;
+}
+
+.section-one {
+  background-color: var(--fourth-color-text);
+  min-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 188px 0;
+  justify-content: center;
+}
+.section-two {
+  padding: 120px 0;
 }
