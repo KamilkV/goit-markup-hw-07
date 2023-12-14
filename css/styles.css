@@ -74,7 +74,7 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-display:inline-block .studio-header {
+.studio-header {
   color: var(--fourth-color-text);
 }
 
@@ -136,6 +136,7 @@ button:focus {
 .section {
   background-color: var(--fourth-color-text);
 }
+
 .header-cointainer {
   width: 1158px;
   margin: 0 auto;
