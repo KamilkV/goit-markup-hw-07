@@ -164,7 +164,7 @@ button:focus {
   row-gap: 48px;
 }
 
-.ux {
+.uxlist {
   width: 360px;
 }
 
@@ -250,7 +250,7 @@ a:focus {
   margin: 0 auto;
   padding: 32px 0;
 }
-.value {
+.values {
   width: calc((100% - 72px) / 4);
   display: flex;
   flex-direction: column;
