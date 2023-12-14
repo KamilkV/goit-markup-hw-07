@@ -389,4 +389,6 @@ a:focus {
 }
 .section-two {
   padding: 120px 0;
+  display: flex;
+  gap: 24px;
 }
