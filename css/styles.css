@@ -73,7 +73,6 @@ ol {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  display: flex;
 }
 .studio-header {
   color: var(--fourth-color-text);
@@ -213,12 +212,12 @@ a:focus {
 }
 
 .header-app {
+  height: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--fourth-color-text);
-  height: 24px;
   margin-bottom: 8px;
 }
 
