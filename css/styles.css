@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
 :root {
   --first-color-text: #000;
   --second-color-text: #4285f4;
@@ -7,10 +29,6 @@
   --color-white: #ffffff;
   --iris: #4d5ae5;
   --focus-color: #404bbf;
-}
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -55,12 +73,6 @@ button {
   margin: 0 auto;
   padding: 0 15px;
 }
-ul,
-ol {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
 
 .visually-hidden {
   position: absolute;
@@ -90,6 +102,8 @@ ol {
   height: 72px;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  
 }
 
 .nav-list {
@@ -123,6 +137,8 @@ ol {
   font-size: 10px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px
 }
 
 button:hover,
@@ -151,7 +167,6 @@ button:focus {
   height: 56px;
   box-shadow: 0px 4px 4px 0px #00000026;
   border-radius: 4px;
-
   display: block;
   border: 1px solid #e7e9fc;
 }
@@ -378,16 +393,47 @@ a:focus {
 }
 
 .section-one {
-  background-color: var(--fourth-color-text);
-  min-width: 1440px;
+  background-image: url('../images/people-office.jpg')
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 188px 0;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  max-width: 1440px;
 }
 .section-two {
   padding: 120px 0;
   display: flex;
   gap: 24px;
+}
+.icons {
+  background: #f4f4fd;
+  padding-block: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icon-symbols{
+  display: block;
+  margin: auto;
+}
+.icon-socials {
+  display: block;
+  fill: #f4f4fd;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+.icon-customers {
+  margin: 16px 32px;
+  fill: currentColor;
 }
