@@ -436,6 +436,7 @@ a:focus {
 .icon-symbols{
   display: block;
   margin: auto;
+  
 }
 .icon-socials {
   display: block;
@@ -444,6 +445,7 @@ a:focus {
   width: 40px;
   height: 40px;
   padding: 12px;
+  
 }
 .icon-socials-list {
   display: flex;
@@ -515,13 +517,15 @@ a:focus {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-     width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+    
 }
 
 .footer {
   display: flex;
   align-items: baseline;
+  height: 40px;
 }
 .container-footer {
   margin-right: 120px;
@@ -530,8 +534,6 @@ a:focus {
 .container-text {
   margin-right: 120px;
 }
-
-
 
 .footer-social-icons-link {
   fill: #f4f4fd;
@@ -553,10 +555,12 @@ a:focus {
   display: flex;
   gap: 16px;
   list-style: none;
+  
 }
 
 .footer-social-icons {
   height: 40px;
+  
 }
 
 .footer-class {
