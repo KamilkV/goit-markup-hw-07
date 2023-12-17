@@ -47,6 +47,7 @@ img {
   height: auto;
 }
 
+
 button {
   cursor: pointer;
   border: none;
@@ -190,7 +191,6 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
   text-align: left;
 }
 
@@ -238,6 +238,7 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--fourth-color-text);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .doing {
@@ -286,7 +287,7 @@ a:focus {
   align-items: center;
   margin-right: 76px;
 }
-.footer-class {
+.footer-footer {
   background-color: var(--fourth-color-text);
   color: var(--color-white);
   height: 312px;
@@ -305,7 +306,14 @@ a:focus {
 
 .link {
   text-decoration: none;
+  display: block;
 }
+  .link:hover, 
+  .link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 .footer-link {
   text-decoration: none;
   display: inline-block;
@@ -499,9 +507,6 @@ a:focus {
   color: #404bbf;
 }
 
-.container-footer {
-  margin-right: 120px;
-}
 .footer-social {
   font-weight: 500;
   font-size: 16px;
@@ -509,12 +514,23 @@ a:focus {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+     width: 100%;
+    height: 100%;
 }
 
 .footer {
   display: flex;
   align-items: baseline;
 }
+.container-footer {
+  margin-right: 120px;
+}
+
+.container-text {
+  margin-right: 120px;
+}
+
+
 
 .footer-social-icons-link {
   fill: #f4f4fd;
@@ -527,7 +543,8 @@ a:focus {
   justify-content: center;
 }
 
-.footer-social-icons-link:is(:hover, :focus) {
+.footer-social-icons-link:hover, 
+.footer-social-icons-link:focus {
   background-color: #31d0aa;
 }
 
