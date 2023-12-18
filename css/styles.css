@@ -445,17 +445,19 @@ a:focus {
 .icon-socials {
   display: block;
   fill: #f4f4fd;
+}
+
+
+.circle {
   width: 40px;
   height: 40px;
-  padding: 12px;
-
 }
 .icon-socials-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   list-style: none;
-  padding-top: 8px;
+ 
   
 }
 .icon-socials-link {
