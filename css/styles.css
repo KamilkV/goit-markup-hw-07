@@ -467,6 +467,11 @@ a:focus {
   align-items: center;
   justify-content: center;
 }
+
+.icon-socials-link:hover,
+.icon-socials-link:focus {
+background-color: #404bbf;
+}
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
