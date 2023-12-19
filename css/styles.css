@@ -413,6 +413,7 @@ a:focus {
 }
 
 .section-one {
+  background-color: var(--fourth-color-text);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   display: flex;
   flex-direction: column;
