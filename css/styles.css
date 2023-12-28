@@ -139,6 +139,8 @@ button {
   margin: 0 auto;
   justify-content: center;
   gap: 40px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button {
   color: var(--iris);
@@ -382,8 +384,7 @@ a:focus {
   gap: 40px;
   display: flex;
   padding: 24px 0;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .team {
