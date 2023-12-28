@@ -391,14 +391,20 @@ a:focus {
   transition: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;;
-  background-color: #404bbf
   border-radius: 2px;
 } 
+
+.index-link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--focus-color);
+}
+
+
 
 .team {
   background-color: var(--fifth-color-text);
