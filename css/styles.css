@@ -371,8 +371,7 @@ a:focus {
   justify-content: center;
   gap: 40px;
   align-items: center;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .index-link {
