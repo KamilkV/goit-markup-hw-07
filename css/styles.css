@@ -85,9 +85,7 @@ button {
 }
 
 
-
-
-.cacontenttext {
+.contenttext {
   position: absolute;
   top: 0px;
   padding: 40px 32px;
@@ -106,8 +104,8 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.app-link:hover .contenttext,
-.app-link:focus .contenttext{
+.forshadow:hover .contenttext,
+.forshadow:focus .contenttext{
   transform: translateY(0%);
 }
 .visually-hidden {
@@ -222,7 +220,8 @@ button:focus {
 
 
 
-  .portfolio-button:is(:hover, :focus) {
+  .portfolio-button:hover,
+  .portfolio-button:focus {
     color: var(--color-white);
     background-color: var(--focus-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -235,7 +234,13 @@ button:focus {
 }
 
 .uxlist {
+  margin: 0;
+  font-size: 18px;
   width: 360px;
+}
+
+.uxlist:hover {
+      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .ux-items {
@@ -293,6 +298,11 @@ a:focus {
   color: var(--fourth-color-text);
   margin-bottom: 8px;
 }
+  .contentimg {
+    position: relative;
+    overflow: hidden;
+}
+
 
 .doing {
   padding-bottom: 120px;
@@ -357,7 +367,8 @@ a:focus {
   max-width: 264px;
 }
 
-.link {
+.link,
+.forshadow {
   text-decoration: none;
   display: block;
   transition-property: box-shadow;
