@@ -84,6 +84,32 @@ button {
   padding: 0 15px;
 }
 
+
+
+
+.cacontenttext {
+  position: absolute;
+  top: 0px;
+  padding: 40px 32px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  font-family: Roboto;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: var(--fifth-color-text);
+  background-color: var(--iris);
+  transform: translateY(100%);
+  transition: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.app-link:hover .contenttext,
+.app-link:focus .contenttext{
+  transform: translateY(0%);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
