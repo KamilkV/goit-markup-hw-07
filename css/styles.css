@@ -383,12 +383,12 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--fourth-color-text);
+  color: var(--focus-color);
   gap: 40px;
   display: flex;
   padding: 24px 0;
   position: relative;
-transition: color;
+  transition: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
