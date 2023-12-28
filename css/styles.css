@@ -362,6 +362,8 @@ a:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   display: flex;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .address-list {
