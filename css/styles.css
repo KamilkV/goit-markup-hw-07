@@ -474,6 +474,8 @@ a:focus {
   justify-content: center;
   gap: 24px;
   list-style: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  
   
 }
