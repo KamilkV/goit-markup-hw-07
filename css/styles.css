@@ -122,6 +122,8 @@ button {
 }
 .studio-header {
   color: var(--fourth-color-text);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .header {
