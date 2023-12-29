@@ -122,8 +122,6 @@ button {
 }
 .studio-header {
   color: var(--fourth-color-text);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
 }
 
 .header {
@@ -440,8 +438,6 @@ a:focus {
   padding: 24px 0;
   position: relative;
   transition: color;
-  transition-duration:250ms;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 2px;
 } 
 
