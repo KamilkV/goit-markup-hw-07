@@ -394,6 +394,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--third-color-text);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .highlight {
@@ -432,7 +433,7 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--focus-color);
+  color: #2E2F42;
   gap: 40px;
   display: flex;
   padding: 24px 0;
@@ -440,18 +441,6 @@ a:focus {
   transition: color;
   border-radius: 2px;
 } 
-
-.index-link::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--focus-color);
-}
-
-
 
 .team {
   background-color: var(--fifth-color-text);
@@ -555,6 +544,7 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-socials-link:hover,
@@ -600,6 +590,7 @@ background-color: #404bbf;
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-link:hover,
 .customer-link:focus {
@@ -647,6 +638,8 @@ background-color: #404bbf;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icons-link:hover, 
@@ -725,6 +718,7 @@ background-color: #404bbf;
 
 .close-btn:hover {
   border: none;
+  fill: var(--color-white);
 }
   
 
