@@ -12,11 +12,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
 }
+
 ul,
 ol {
   list-style: none;
@@ -41,17 +43,6 @@ body {
   line-height: 1.6;
   background-color: var(--color-white);
   color: var(--third-color-text);
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
 }
 
 .container-header {
@@ -84,7 +75,6 @@ button {
   padding: 0 15px;
 }
 
-
 .contenttext {
   position:absolute;
   top:0%;
@@ -92,7 +82,7 @@ button {
   width: 100%;
   height: 100%;
   opacity: 0.85;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height:1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -314,6 +304,7 @@ a:focus {
   text-transform: capitalize;
   color: var(--fourth-color-text);
   margin-bottom: 72px;
+
 }
 .doing-list {
   list-style: none;
@@ -399,13 +390,6 @@ a:focus {
 
 .highlight {
   color: var(--fifth-color-text);
-}
-.what-text {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--fourth-color-text);
 }
 
 .address {
@@ -556,12 +540,6 @@ background-color: #404bbf;
   padding-bottom: 120px;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  
-}
 .customers-customers{
   display: flex;
   justify-content: center;
@@ -613,16 +591,12 @@ background-color: #404bbf;
   margin-bottom: 16px;
   width: 100%;
   height: 100%;
-    
 }
 
 .footer {
   display: flex;
   align-items: baseline;
   height: 40px;
-}
-.container-footer {
-  margin-right: 120px;
 }
 
 .container-text {
