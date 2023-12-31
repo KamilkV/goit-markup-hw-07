@@ -500,6 +500,7 @@ a:focus {
   display: block;
   margin: auto;
   
+  
 }
 .icon-socials {
   display: block;
@@ -623,6 +624,7 @@ background-color: #404bbf;
   gap: 16px;
   list-style: none;
 }
+
 
 .footer-social-icons {
   height: 40px;
@@ -805,4 +807,11 @@ input,textarea {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-person{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  left: 5px;
 }
