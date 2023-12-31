@@ -672,7 +672,7 @@ background-color: #404bbf;
   margin-bottom: 16px;
   color: var(--fourth-color-text);
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -682,7 +682,7 @@ background-color: #404bbf;
 .modal-form {
   margin: 0 24px 0 24px;
   color: #8E8F99;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -769,3 +769,40 @@ pointer-events: none;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-container:focus-within .icon {
+  fill:blue;
+}
+
+input,textarea {
+  
+  display: block;
+  width: 100%;
+  padding: 10px 10px 10px 25px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+
+.button-send {
+  background-color: var(--iris);
+  color: var(--color-white);
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
+  margin: 50px auto 0;
+  display: block;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
