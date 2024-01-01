@@ -692,8 +692,13 @@ background-color: #404bbf;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
+
+
+
 }
 .close-btn {
   position: absolute;
@@ -780,21 +785,47 @@ pointer-events: none;
   position: relative;
   width: 100%;
   margin-bottom: 8px;
+text
+
 }
-.input-container:focus-within .icon {
-  fill:blue;
+.input-container:focus-within {
+  fill:#4D5AE5;
+  
+
 }
 
-input,textarea {
-  
+.input,textarea {
   display: block;
   width: 100%;
   padding: 10px 10px 10px 25px;
   border:1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 4px;
   margin-top: 5px;
-  width: 200px;
+  width: 200px;  
+
 }
+
+
+
+
+.input{
+  height: 40px
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent; 
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus {
+
+  border-color: #4D5AE5;
+}
+
+.icon-person:focus {
+  color: #4D5AE5;
+}
+
 
 
 .button-send {
@@ -816,9 +847,21 @@ input,textarea {
 .icon-person{
   position: absolute;
   top: 50%;
-  transform: translateY(-40%);
-  left: 5px;
+  transform: translateY(-50%);
+  left: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+
+.icon-person:focus {
+  color: var(--color-white);
+  background-color: var(--focus-color);
+  border: 1px solid transparent;
+  border-color: #4D5AE5;
+}
+
+
+
 
 .footer-subscribe {
   font-weight: 500;

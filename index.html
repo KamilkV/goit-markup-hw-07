@@ -477,22 +477,23 @@
         <form class="modal-form">
           <p class="modal-header">Leave your contacts and we will call you back</p>
           
-          <label class="modal-form" for="name">Name </label>
+          <label class="modal-form" for="user-name">Name </label>
           <div class="input-container">
             <svg class="icon-person" width="18" height="18">
               <use href="./images/icons.svg#icon-person">
                 </use>
                    </svg> 
-          <input class="input" type="text" id="name" required/>
+          <input class="input" type="text" name="user-name" id="user-name" required/>
           </div>
           
+
             <label for="phone">Phone</label>
             <div class="input-container">
               <svg class="icon-person" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone">
                   </use>
                      </svg> 
-            <input type="tel" id="phone" />
+            <input class="input" type="tel" id="phone" />
           </div>
 
             <label for="email">Email</label>
@@ -501,12 +502,12 @@
                 <use href="./images/icons.svg#icon-email">
                   </use>
                      </svg> 
-            <input type="email" id="email" />
+            <input class="input" type="email" id="email" />
           </div>
 
             <label for="comment">Comment</label>
             <div class="input-container">
-            <textarea id="comment" placeholder="Text input"></textarea>
+            <textarea id="user-comment" name="user-comment" placeholder="Text input"></textarea>
             </div>
             <div class="input-container">
             <input type="checkbox" required id="policy" />
