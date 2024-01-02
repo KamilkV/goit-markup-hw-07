@@ -896,10 +896,6 @@ textarea:focus {
   padding-left: 16px;
   border-radius: 4px; 
 }
-.gape{
-  gap:24px;
-}
-
 
 input::placeholder{
   color:#ffffff;
@@ -936,7 +932,6 @@ input::placeholder{
 
 .form {
   display: flex;
-  gap:24px;
 }
 
 .subscribe {
