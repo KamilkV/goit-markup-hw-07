@@ -752,7 +752,6 @@ pointer-events: none;
   transform: translate(-50%, -50%);
   border: none;
   font-size: 16px;
-  display: block;
 }
 
 .open-modal:hover {
@@ -981,6 +980,9 @@ input::placeholder{
 .label-div {
   margin-bottom: 16px
 
+}
+.labelprivacy {
+  display: block;
 }
 
 .textarea {
