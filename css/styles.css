@@ -821,7 +821,6 @@ pointer-events: none;
 }
 
 textarea:focus {
-
   border-color: #4D5AE5;
 }
 
@@ -897,6 +896,9 @@ textarea:focus {
   padding-left: 16px;
   border-radius: 4px; 
 }
+
+
+
 input::placeholder{
   color:#ffffff;
 }
@@ -923,9 +925,8 @@ input::placeholder{
   border: none; 
   border-radius: 4px; 
   background-color: #4D5AE5;
-  
-
 }
+
 .send-icon {
   margin-left: 16px;
   margin-right: 24px;
