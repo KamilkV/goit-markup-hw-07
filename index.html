@@ -526,19 +526,23 @@
 
 
             <div class="input-container-privacy">
-            <input class="input-cop visually-hidden" type="checkbox" required id="user-privacy" value="true" name="user-privacy"/>
+            <input class="input-privacy visually-hidden" type="checkbox" required id="user-privacy" value="true" name="user-privacy" id="user-privacy"/>
 
+            <form class="form-form">
+              <div class="form-field">
+                <input type="checkbox" class="form-input" name="hobby" value="sports" id="sports">
+       
             
-              <label class="labelprivacy" for="user-privacy">I accept the terms and conditions of the
+              <label class="labelprivacy visually-hidden" for="user-privacy">I accept the terms and conditions of the
                 <span class="privacyspan">Privacy Policy     
                   <svg class="checkboxicon" width="10" height="8">
                   <use href="./images/icons.svg#icon-email">
                     </use>
                        </svg></span>
-                <a href="./images/icons.svg#icon-email"> 
-                 </a></label>
-
-        
+                <a class="linkprivacy" href="./images/icons.svg#icon-email" >Privacy Policy</a>> 
+                </label>
+              </div>
+            </form>
 </div>
 
 <button class="button-send" type="button" data-modal-open>Send</button>
