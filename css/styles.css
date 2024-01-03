@@ -995,3 +995,9 @@ input::placeholder{
 .label-div-v{
   margin-bottom: 16px
 }
+
+.input-privacy:checked + .labelprivacy .privacyspan {
+  background-color: #404BBF;
+  border: none;f
+  fill: #F4F4FD;
+ }
