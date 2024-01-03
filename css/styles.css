@@ -989,63 +989,9 @@ input::placeholder{
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.textarea:focus {
-border-color: #4D5AE5;
-  }
-
-.visually-hidden {
-
-}
-
-
-.checkboxicon {
-
-
-}
-
 .label-div {
   margin-bottom: 8px
 }
-
 .label-div-v{
   margin-bottom: 16px
-}
-.labelprivacy:checked {
-  display: block;
-}
-
-.input-cop{
-
-}
-
-.labelprivacy:checked {
-background-color: #404bbf;
-border: none; 
-fill: #F4F4FD;
-}
-
-
-
-.form-form
-
-.form-input
-
-.form-field
-
-
-.form-label{
-  display: block;
-}
-
-
-
-.form-input:checked {
-  outline: 2px solid #2196f3;
-  outline-offset: 2px;
-}
-
-.linkprivacy{
-
-
 }
