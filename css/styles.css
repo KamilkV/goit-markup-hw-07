@@ -971,7 +971,7 @@ input::placeholder{
   align-items: center; 
   justify-content: center;
   fill: transparent;
-  color: #4d5ae5;
+  
 }
 
 .textarea {
@@ -1005,3 +1005,7 @@ input::placeholder{
  .linkprivacy{
   color:#4d5ae5;
  }
+ .labelprivacy {
+  display: block;
+ }
+
