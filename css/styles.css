@@ -998,6 +998,6 @@ input::placeholder{
 
 .input-privacy:checked + .labelprivacy .privacyspan {
   background-color: #404BBF;
-  border: none;f
+  border: none;
   fill: #F4F4FD;
  }
