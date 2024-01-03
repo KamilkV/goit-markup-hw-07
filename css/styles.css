@@ -977,8 +977,12 @@ input::placeholder{
 
 .label-div {
   margin-bottom: 8px
-
 }
+
+.label-div2 {
+  margin-bottom: 16px
+}
+
 .labelprivacy {
   display: block;
 }
