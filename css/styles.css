@@ -673,7 +673,6 @@ background-color: #404bbf;
   margin-bottom: 8px;
 }
 .modal-header {
-  margin-top: 72px;
   margin-bottom: 16px;
   color: #2E2F42;
   text-align: center;
@@ -687,7 +686,6 @@ background-color: #404bbf;
   text-align: center; 
 }
 .modal-form {
-  margin: 0 24px 0 24px;
   color: #8E8F99;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -785,9 +783,8 @@ pointer-events: none;
 .input-container {
   position: relative;
   width: 100%;
-  margin-bottom: 8px;
-
 }
+
 .input-container:focus-within {
   fill:#4D5AE5;
 }
@@ -836,7 +833,7 @@ textarea:focus {
   height: 56px;
   box-shadow: 0px 4px 4px 0px #00000026;
   border-radius: 4px;
-  margin: 50px auto 0;
+  margin: auto;
   display: block;
   border: none;
   transition-property: background-color;
@@ -909,7 +906,6 @@ input::placeholder{
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.64px;
-  margin-left: 24px;
   padding: 8px 0px 8px 24px;
   min-width: 165px;
   height: 40px;
@@ -932,6 +928,7 @@ input::placeholder{
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe {
@@ -979,7 +976,7 @@ input::placeholder{
 
 
 .label-div {
-  margin-bottom: 16px
+  margin-bottom: 8px
 
 }
 .labelprivacy {
@@ -1020,5 +1017,5 @@ inputa który ma type="checkbox" należy dodać klasę .visually-hidden
 
 .checkboxicon{
 
-  
+
 }
