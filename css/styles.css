@@ -972,3 +972,58 @@ input::placeholder{
   display: block;
  }
 
+ --------------------------------------------------
+ .container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -------MOBILE -------*/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 767px;
+    display:flex
+  }
+}
+
+/* ------- TABLET -------*/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* -------NOT DESKTOP-------*/
+@media screen and (max-width: 1157px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+/* -------DESKTOP-------*/
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
+
+
+
+
+------------
+@media (min-width: 320px){
+#container {
+  display: flex;
+
+}
+}
+@media (min-width:480){
+#container {
+  flex-direction: row;
+
+}
+}
+
+
+
