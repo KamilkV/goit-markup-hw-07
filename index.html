@@ -32,6 +32,15 @@
             </li>
             <li><a href="" class="link index-link">Contacts</a></li>
           </ul>
+
+          <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+
         </nav>
         <address class="address">
           <ul class="address-list">
@@ -48,8 +57,73 @@
           </ul>
         </address>
       </div>
-     
     </header>
+
+
+    <div class="menu-mobile js-menu-container">
+      <div class="button-container">
+          <button class="js-close-menu">
+              <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-close">
+                  </use>
+              </svg>
+          </button>
+      </div>
+    <div class="mobile-menu-layout">
+      <nav class="nav-list">
+        <ul class="menu-list">
+          <li><a href="./index.html" class="link index-link link-active">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="link index-link">Portfolio</a>
+          </li>
+          <li><a href="" class="link index-link">Contacts</a></li>
+        </ul>
+</nav>
+<address class="address">
+  <ul class="address-list">
+      <li class="address-list"><a href="mailto:info@devstudio.com"
+              class="link contact-link">info@devstudio.com</a></li>
+      <li class="address-list"><a href="tel:+110001111111" class="link contact-link">+11 (000)
+              111-11-11</a></li>
+  </ul>
+<div class="menu-mobile-social">
+  <ul class="menu-mobile-social-links">
+      <li class="footer-social-icons">
+          <a href="" class="footer-social-icons-link">
+              <svg class="social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2">
+                  </use>
+              </svg>
+          </a>
+      </li>
+      <li class="footer-social-icons">
+          <a href="" class="footer-social-icons-link">
+              <svg class="social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1">
+                  </use>
+              </svg>
+          </a>
+      </li>
+      <li class="footer-social-icons">
+          <a href="" class="footer-social-icons-link">
+              <svg class="social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1">
+                  </use>
+              </svg>
+          </a>
+      </li>
+      <li class="footer-social-icons">
+          <a href="" class="footer-social-icons-link">
+              <svg class="social-icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1">
+                  </use>
+              </svg>
+          </a>
+      </li>
+  </ul>
+</div>
+</address>
+
     <main>
       <section class="section-one">
         <div class="container">
@@ -57,7 +131,6 @@
             Effective Solutions<br />for Your Business
           </h1>
           <button class="button-header" type="button" data-modal-open>Order Service</button>
-
         </div>
       </section>
       <section class="section-two">
@@ -71,7 +144,7 @@
                 </use>
             </svg>
           </div>
-              <h3 class="header-app">Strategy</h3>
+              <h3 class="header-second-section header-app">Strategy</h3>
               <p class="text-app">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -84,7 +157,7 @@
                   </use>
               </svg>
               </div>
-              <h3 class="header-app">Punctuality</h3>
+              <h3 class="header-second-section header-app">Punctuality</h3>
               <p class="text-app">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -97,7 +170,7 @@
                   </use>
               </svg>
               </div>
-              <h3 class="header-app">Diligence</h3>
+              <h3 class="header-second-section header-app">Diligence</h3>
               <p class="text-app">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -110,7 +183,7 @@
                   </use>
               </svg>
               </div>
-              <h3 class="header-app">Technologies</h3>
+              <h3 class="header-second-section header-app">Technologies</h3>
               <p class="text-app">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -125,7 +198,7 @@
           <ul class="doing-list">
             <li class="doing-img">
               <img
-                src="./images/comp1.jpg"
+                src="./images/comp1.jpg" srcset="./images/comp1@x2.jpg"
                 alt="screen"
                 width="360"
                 height="300"
@@ -133,7 +206,7 @@
             </li>
             <li class="doing-img">
               <img
-                src="./images/smarts2.jpg"
+                src="./images/smarts2.jpg" srcset="./images/smarts2@x2.jpg"
                 alt="four smartphones"
                 width="360"
                 height="300"
@@ -141,7 +214,7 @@
             </li>
             <li class="doing-img">
               <img
-                src="./images/smart3.jpg"
+                src="./images/smart3.jpg" srcset="./images/smart3@x2.jpg"
                 alt="smartphone in hand"
                 width="360"
                 height="300"
@@ -476,10 +549,6 @@
         </button>
 <p class="modal-header">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          
-          
-
-
         <div class="label-div"> 
           <label class="modal-form" for="user-name">Name </label>
           <div class="input-container">
@@ -488,7 +557,6 @@
               <use href="./images/icons.svg#icon-person">
                 </use>
                    </svg> 
-           
            </div>
           </div>
 
