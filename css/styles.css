@@ -56,7 +56,7 @@ body {
   margin: 0 auto;
   display: flex;
   padding: 0 15px;
-  justify-content: space-between;
+  
 }
 .header-section {
   font-size: 56px;
@@ -473,7 +473,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
+  padding: 112px 0;
   justify-content: center;
   background-position: center;
   background-size: cover;
@@ -549,9 +549,12 @@ background-color: #404bbf;
 }
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 72px;
+  list-style: none;
+  margin: auto;
   justify-content: center;
-  align-items: center;
-  gap: 24px;
 }
 
 .icon-customers {
@@ -638,7 +641,6 @@ background-color: #404bbf;
   flex-direction: column;
   justify-content: center;
 }
-
 .container-footer {
   margin-right: 120px;
 }
@@ -940,7 +942,7 @@ input::placeholder{
   align-items: center; 
   justify-content: center;
   fill: transparent;
-  margin-right:8px;
+  margin-right:4px;
 }
 
 .textarea {
@@ -977,7 +979,20 @@ input::placeholder{
  .labelprivacy {
   display: block;
  }
-
+ .header-second-section {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Roboto;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--fourth-color-text);
+  height: 24px;
+  text-align: center;
+  margin: 20px;
+}
+.container-footer {
+  margin: auto;
+}
 
 
 
@@ -1009,16 +1024,14 @@ input::placeholder{
 .portfolio-header-list {
   font-size: 20px;
 }
-
 @media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-  .first-section {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-          url("../images/people-office\ 1@2x.jpg");
-  }
+    .first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/people-office\ 1@2x.jpg");
+    }
 }
-
 
 .header-section {
   font-size: 36px;
@@ -1184,15 +1197,15 @@ input::placeholder{
 
 
 /* -------MOBILE -------*/
-/* ================================================= MOBILE 👇 ========================================= */
+
 @media screen and (min-width: 480px) {
 
   .container {
-      max-width: 480px;
+  max-width: 480px;
   }
 
   .email {
-      min-width: 280px;
+  min-width: 280px;
   }
 }
 
@@ -1236,7 +1249,7 @@ input::placeholder{
       justify-content: center;
   }
 
-  .customers-item {
+  .customers-customers {
       flex-basis: calc((100% - 120px) / 3);
       width: calc((100% - 120px) / 6);
       height: 88px;
