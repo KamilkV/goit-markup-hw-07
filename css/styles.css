@@ -300,6 +300,7 @@ a:focus {
 
 .doing {
   padding-bottom: 120px;
+  display: none;
 }
 .what-text {
   font-size: 36px;
@@ -327,7 +328,6 @@ a:focus {
   padding: 32px 0;
 }
 .values {
-  width: calc((100% - 72px) / 4);
   display: flex;
   flex-direction: column;
 }
@@ -541,9 +541,8 @@ background-color: #404bbf;
 .customers-customers{
   display: flex;
   justify-content: center;
-  gap: 24px;
-  width: calc((100% - 120px) / 6);
   height: 88px;
+  width: 190px;
 }
 .customers-list {
   display: flex;
@@ -596,6 +595,7 @@ background-color: #404bbf;
 .footer {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .container-text {
@@ -900,6 +900,7 @@ input::placeholder{
 .form {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .subscribe {
@@ -912,7 +913,7 @@ input::placeholder{
   
 }
 .subscribe-sub {
-  margin-left: 80px;
+  margin:auto
 }
 
 .input-container-privacy {
@@ -1251,12 +1252,16 @@ input::placeholder{
 
   .customers-list {
       justify-content: center;
+      row-gap: 72px;
+      column-gap: 16px;
   }
 
   .customers-customers {
-      flex-basis: calc((100% - 120px) / 3);
-      width: calc((100% - 120px) / 6);
+    display: flex;  
+    justify-content: center;
+     width: 190px;
       height: 88px;
+      
   }
 
   .footer-link {
@@ -1296,12 +1301,15 @@ input::placeholder{
   }
 
   .email {
-      width: 264px;
+      width: 398px;
   }
 
   .footer {
+    display: flex;
+  align-items: baseline;
       flex-direction: row;
       gap: 72px;
+      flex-wrap: wrap;
   }
 
   .apps {
@@ -1361,6 +1369,7 @@ input::placeholder{
 
   .container {
       max-width: 1158px;
+      
   }
 
   .tasks {
@@ -1384,7 +1393,10 @@ input::placeholder{
   }
 
   .form {
-      flex-flow: row;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .header-list {
