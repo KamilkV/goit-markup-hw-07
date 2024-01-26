@@ -289,7 +289,6 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--fourth-color-text);
   margin-bottom: 8px;
-  margin: 20px;
   text-align: center;
 }
   .contentimg {
@@ -468,7 +467,7 @@ a:focus {
 
 .section-one {
   background-color: var(--fourth-color-text);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office@x2.jpg)
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office@x2.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1122,8 +1121,7 @@ input::placeholder{
 .list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  gap: 72px;
+  gap: 24px;
 }
 
 .menu-list {
@@ -1178,6 +1176,7 @@ input::placeholder{
   width: 100%;
   display: flex;
   flex-direction: column;
+  width: 356px;
 }
 
 
@@ -1217,6 +1216,8 @@ input::placeholder{
 }
 .container {
   max-width: 480px;
+  margin: auto;
+  padding: 0 15px;
   }
 
  --------------------------------------------------
@@ -1227,16 +1228,6 @@ input::placeholder{
 
 @media screen and (min-width: 480px) {
 
-
-  .container {
-  max-width: 480px;
-  }
-  .container {
-    width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
-    
-  }
   
   .email {
   min-width: 280px;
@@ -1273,6 +1264,8 @@ input::placeholder{
 
   .container {
     max-width: 768px;
+    margin:auto;
+    padding: 0 15px;
 }
   .container-header .nav-list .menu-list,
   .container-header .address {
@@ -1288,8 +1281,10 @@ input::placeholder{
       font-size: 56px;
   }
   .list{
-   
-    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
     }
     .values{
     flex-basis: calc((100%-72px)/2); 
@@ -1366,6 +1361,7 @@ input::placeholder{
     flex-direction: row;
     gap: 72px;
     flex-wrap: wrap;
+    padding-left: 108px;
   }
 
   .apps {
