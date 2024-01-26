@@ -290,6 +290,7 @@ a:focus {
   color: var(--fourth-color-text);
   margin-bottom: 8px;
   margin: 20px;
+  text-align: center;
 }
   .contentimg {
     position:relative;
@@ -467,7 +468,7 @@ a:focus {
 
 .section-one {
   background-color: var(--fourth-color-text);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office@x2.jpg)
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1004,8 +1005,6 @@ input::placeholder{
   margin: auto;
 }
 
-
-
  .menu-mobile.is-open {
   display: flex;
   flex-flow: column nowrap;
@@ -1216,7 +1215,9 @@ input::placeholder{
   margin: auto;
   gap: 72px;
 }
-
+.container {
+  max-width: 480px;
+  }
 
  --------------------------------------------------
 
@@ -1287,9 +1288,12 @@ input::placeholder{
       font-size: 56px;
   }
   .list{
+   
     flex-wrap: nowrap;
     }
-
+    .values{
+    flex-basis: calc((100%-72px)/2); 
+    }
 
   .header-list {
       text-align: left;
@@ -1384,6 +1388,15 @@ input::placeholder{
   padding-bottom: 120px;
   display: none;
 }
+
+.header-app {
+  text-align: left;
+  margin-left: 0;
+
+}
+.icon-socials-list{
+
+}
 }
 /* ================== DESKTOP 👇 ===================== */
 
@@ -1414,6 +1427,13 @@ input::placeholder{
 
   .staff {
       flex-flow: nowrap;
+      .team-name {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 32px 0;
+}
   }
 
   .nav-list {
@@ -1430,9 +1450,17 @@ input::placeholder{
       
   }
 
-  .doing {
-      display: none;
-  }
+
+    .doing {
+      padding-bottom: 120px;
+      display: block;
+      list-style: none;
+      display: flex;
+      margin: 0 10px;
+      justify-content: center;
+      gap: 24px;
+    }
+  
 
   .customers-list {
       flex-wrap: nowrap;
